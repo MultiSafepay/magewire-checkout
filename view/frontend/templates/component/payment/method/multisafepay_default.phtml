@@ -1,0 +1,20 @@
+<?php
+/**
+ * @author Hyvä Themes <info@hyva.io>
+ *
+ * For the full copyright and license information, please view the LICENSE.txt
+ * file that was distributed with this source code.
+ */
+
+declare(strict_types=1);
+
+/** @var Template $block */
+/** @var MultiSafepayDefault $magewire */
+/** @var Escaper $escaper */
+
+use MultiSafepay\MagewireCheckout\Payment\Method\MultiSafepayDefault;
+use Magento\Framework\Escaper;
+use Magento\Framework\View\Element\Template;
+
+?>
+<div wire:payment-method="<?php $magewire->getPaymentMethodCode(); ?>"></div>
