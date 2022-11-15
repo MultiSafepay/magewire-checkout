@@ -5,6 +5,7 @@
 # MultiSafepay module for the MageWire Checkout
 
 This is the module of our MageWire Checkout integration.
+The module is currently in beta. Please use with caution.
 
 Before you get started with MultiSafepay and MageWire Checkout, please read and follow our [installation & configuration manual](https://docs.multisafepay.com/integrations/plugins/magento2/) first.
 
@@ -31,7 +32,7 @@ composer require multisafepay/magewire-checkout
 
 Next, enable the module:
 ```bash
-bin/magento module:enable MultiSafepay_MagewireCheckout
+php bin/magento module:enable MultiSafepay_MagewireCheckout
 ```
 
 Next, run the following commands:
